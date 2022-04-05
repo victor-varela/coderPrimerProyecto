@@ -25,73 +25,6 @@ html {
 }
 
 
-.encabezado_quienesSomos {
-    display: flex;
-    flex-direction: row;
-    height: 210px;
-    margin-bottom: 10px;
-
-}
-
-.titulo_quienesSomos {
-    display: flex;
-    flex-direction:column;
-    width: 200px;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-.encabezado_quienesSomos section p {
-    height: 180px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-
-.encabezado_quienesSomos section {
-    margin-left: -45px;
-    
-}
-
-.encabezado_Servicios {
-    display: flex;
-    flex-direction: row;
-    height: 210px;
-}
-
-.encabezado_Servicios section p {
-    height: 180px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    margin-left: -90px;
-
-}
-
-.titulo_Servicios {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90px;
-    padding: 20px;
-    
-}
-
-.encabezado_Servicios section p {
-    height: 180px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
 .logo {
     grid-area: logo;    
 }
@@ -113,7 +46,12 @@ html {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Dancing Script', cursive;
+    height: 200px;
+    width: 600px;
+    overflow: scroll;
+    margin: 20px 20px;
+    margin-top: 0px;
 }
 .navegador {
     font-size:medium;
@@ -213,6 +151,45 @@ td {
     
 } 
 
+.promo {
+    display: flex;
+}
+
+
+.otono {
+    background-color: burlywood;
+    height: 30rem;
+    width: 35rem;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    font-size: medium;
+    transition: all 2s;
+}
+
+.otono:hover {
+    transform: rotate(360deg);
+    background-color: aqua;
+}
+
+.otono h2{
+    text-align: center;
+}
+
+.otono p{
+    text-align: center;
+}
+
+.imagenOtono img {
+    height: 30rem;
+    width: 35rem;
+    margin: 10px;
+
+}
+
+
 .contenedor h2 {
     width: 100%;
 }
@@ -222,14 +199,6 @@ section {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
-}
-
-.contenedor p{
-    height: 200px;
-    width: 600px;
-    overflow: scroll;
-    margin: 20px 20px;
-    margin-top: 0px;
 }
 
 footer {
@@ -268,7 +237,7 @@ footer li {
     ;
 }
 
-@media screen and (min-width:756px) {
+@media screen and (max-width:756px) {
             .encabezado {
                 flex-direction: column;
             }
