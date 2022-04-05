@@ -227,12 +227,13 @@ footer li {
 .body {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows:0.2fr 0.5fr 0.2fr 0.5fr 0.3fr ; 
+    grid-template-rows:0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.3fr ; 
     grid-template-areas:
     "encabezado encabezado encabezado"
     "imagenPrincipal imagenPrincipal imagenPrincipal"
     "navegador navegador navegador"
     "contenedor contenedor contenedor"
+    "carusel carusel carusel"
     "footer footer footer"
     ;
 }
@@ -245,6 +246,24 @@ footer li {
                 background-color: coral;
             }    
 }
+
+
+
+.carusel {
+    grid-area: carusel;
+}
+
+.textoTestimonio {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+
+
+
 
 
 
