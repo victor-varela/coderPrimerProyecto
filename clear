@@ -1,0 +1,17 @@
+[33mcommit b901a07faae6ee401fda3269078a90d345b140d7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Tue Apr 5 19:38:30 2022 -0300
+
+    coloque un carusel con bootstrap en el index
+
+[33mcommit 006a496f766a7823071119ede8ff9f3cbc5a963b[m[33m ([m[1;32mprueba[m[33m)[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Mon Apr 4 21:31:07 2022 -0300
+
+    Se creo section promo con image y animacion
+
+[33mcommit e7febb5e5d3c6abc14728d74acc8d2c691f39bfa[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Thu Mar 31 18:39:23 2022 -0300
+
+    primer commit

@@ -53,6 +53,22 @@ html {
     margin: 20px 20px;
     margin-top: 0px;
 }
+
+.descripcionQuienesSomos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:azure;
+    font: bold;
+    font-weight: bold;
+    color:black;
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+    height: 250px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
 .navegador {
     font-size:medium;
     background-color:antiquewhite;
@@ -148,8 +164,15 @@ td {
     align-items: center;
     padding: 10px;
     grid-area: contenedor;
-    
-} 
+}
+
+.contenedorQuienesSomos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+}
 
 .promo {
     display: flex;
@@ -182,7 +205,7 @@ td {
     text-align: center;
 }
 
-.imagenOtono img {
+.imagen img {
     height: 30rem;
     width: 35rem;
     margin: 10px;
@@ -251,11 +274,16 @@ footer li {
 
 .carusel {
     grid-area: carusel;
+    width: auto;
+height: 225px;
+max-height: 225px;
 }
 
 .textoTestimonio {
     font-family: 'Dancing Script', cursive;
 }
+
+
 
 
 
