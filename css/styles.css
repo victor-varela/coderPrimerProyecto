@@ -35,6 +35,8 @@ html {
     font-style: normal;
     text-align: center;
     font-size:large;
+    width: 100%;
+    
 }
 
 
@@ -44,7 +46,6 @@ html {
     font-weight: bold;
     color:black;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     font-family: 'Dancing Script', cursive;
     height: 200px;
@@ -53,6 +54,19 @@ html {
     margin: 20px 20px;
     margin-top: 0px;
 }
+
+.descripcionQuienesSomos {
+    background-color:azure;
+    font: bold;
+    font-weight: bold;
+    color:black;
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    }
+
 .navegador {
     font-size:medium;
     background-color:antiquewhite;
@@ -84,7 +98,7 @@ html {
 }   
 
 .imagenPrincipal {
-    margin: auto;
+    margin:auto;
     grid-area: imagenPrincipal;
     width: 70%;
 
@@ -115,13 +129,11 @@ legend {
 
 
 iframe {
-    margin-left: 400px;
+    margin:auto;
     display: flex;
     height: 200%;
     width: 50%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-top: 10px;
 }
 
 
@@ -148,8 +160,16 @@ td {
     align-items: center;
     padding: 10px;
     grid-area: contenedor;
-    
-} 
+}
+
+.contenedorQuienesSomos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    margin: auto;
+
+}
 
 .promo {
     display: flex;
@@ -182,23 +202,17 @@ td {
     text-align: center;
 }
 
-.imagenOtono img {
+.imagen {
+    display: flex;
+    flex-direction: row;
+    
+}
+.imagen img {
     height: 30rem;
     width: 35rem;
-    margin: 10px;
-
-}
-
-
-.contenedor h2 {
-    width: 100%;
-}
-
-
-section {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
+    margin-left: 2rem;
+    
+    
 }
 
 footer {
@@ -227,12 +241,13 @@ footer li {
 .body {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows:0.2fr 0.5fr 0.2fr 0.5fr 0.3fr ; 
+    grid-template-rows:0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.3fr ; 
     grid-template-areas:
     "encabezado encabezado encabezado"
     "imagenPrincipal imagenPrincipal imagenPrincipal"
     "navegador navegador navegador"
     "contenedor contenedor contenedor"
+    "carusel carusel carusel"
     "footer footer footer"
     ;
 }
@@ -245,6 +260,33 @@ footer li {
                 background-color: coral;
             }    
 }
+
+
+
+.carusel {
+    grid-area: carusel;
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}
+
+.textoTestimonio {
+    font-family: 'Dancing Script', cursive;
+}
+
+.ubicanos {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
