@@ -114,8 +114,17 @@ html {
     border-collapse:collapse;
     font-size: large; 
 }
+
 .tabla {
-    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    
+}
+.tabla tr {
+    text-align:center;
+}
+.tabla th {
+    background-color: aqua;
 }
 form {
     font-size: large;
