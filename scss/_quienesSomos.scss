@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ html {
 
 .titulo {
     font-family: 'Dancing Script', cursive;
-    margin:auto;
+    margin: auto;
     font-size: large;
 }
 
@@ -17,34 +17,34 @@ html {
 .encabezado {
     display: flex;
     grid-area: encabezado;
-    background-color: antiquewhite; 
+    background-color: antiquewhite;
     align-items: center;
-    justify-content:left;
+    justify-content: left;
     position: sticky;
     top: 0px;
 }
 
 
 .logo {
-    grid-area: logo;    
+    grid-area: logo;
 }
 
 
-.nosotros  {
-    background-color:antiquewhite ;
+.nosotros {
+    background-color: antiquewhite;
     font-style: normal;
     text-align: center;
-    font-size:large;
+    font-size: large;
     width: 100%;
-    
+
 }
 
 
- .descripcion {
-    background-color:azure;
+.descripcion {
+    background-color: azure;
     font: bold;
     font-weight: bold;
-    color:black;
+    color: black;
     font-size: large;
     text-align: justify;
     font-family: 'Dancing Script', cursive;
@@ -56,67 +56,71 @@ html {
 }
 
 .descripcionQuienesSomos {
-    background-color:azure;
+    background-color: azure;
     font: bold;
     font-weight: bold;
-    color:black;
+    color: black;
     font-size: large;
     font-family: 'Dancing Script', cursive;
     width: 50%;
     padding: 10px;
     margin: 10px;
-    }
+}
 
 .navegador {
-    font-size:medium;
-    background-color:antiquewhite;
+    font-size: medium;
+    background-color: antiquewhite;
     grid-area: navegador;
     height: 8rem;
     display: flex;
     justify-content: center;
-    
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100rem;
+
+        a {
+            transition: font-size 2s;
+            color: black;
+
+            &:hover {
+                font-size: 50px;
+                color: burlywood;
+            }
+        }
+    }
+
 }
-
-.navegador ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100rem;
-}
-.navegador a{
-    transition: font-size  2s;
-    color: black;
-      
-}   
-
-.navegador  a:hover {
-    font-size: 50px;
-    color:burlywood;
-
-}   
 
 .imagenPrincipal {
-    margin:auto;
+    margin: auto;
     grid-area: imagenPrincipal;
     width: 70%;
 
 }
 
 
- table, tr, td, th {
-    
-    border: 1px solid black; 
+table,
+tr,
+td,
+th {
+
+    border: 1px solid black;
     margin: 50px 50px;
     padding: 40px 40px;
     margin-left: 250px;
-    border-collapse:collapse;
-    font-size: large; 
+    border-collapse: collapse;
+    font-size: large;
 }
+
 .tabla {
     margin-left: 350px;
 }
+
 form {
     font-size: large;
     margin: 50px;
@@ -129,7 +133,7 @@ legend {
 
 
 iframe {
-    margin:auto;
+    margin: auto;
     display: flex;
     height: 200%;
     width: 50%;
@@ -144,14 +148,15 @@ textarea {
 
 label {
     padding: 20px;
-    
+
 }
 
 th {
     background-color: #5ff4ab;
 }
+
 td {
-    align-items: center;    
+    align-items: center;
 }
 
 .contenedor {
@@ -183,7 +188,7 @@ td {
     margin: 10px;
     font-family: 'Dancing Script', cursive;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-evenly;
     font-size: medium;
     transition: all 2s;
@@ -194,25 +199,26 @@ td {
     background-color: aqua;
 }
 
-.otono h2{
+.otono h2 {
     text-align: center;
 }
 
-.otono p{
+.otono p {
     text-align: center;
 }
 
 .imagen {
     display: flex;
     flex-direction: row;
-    
+
 }
+
 .imagen img {
     height: 30rem;
     width: 35rem;
     margin-left: 2rem;
-    
-    
+
+
 }
 
 footer {
@@ -221,7 +227,7 @@ footer {
     flex-direction: row;
     justify-content: right;
     grid-area: footer;
-        
+
 }
 
 footer img {
@@ -241,24 +247,25 @@ footer li {
 .body {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows:0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.3fr ; 
+    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.3fr;
     grid-template-areas:
-    "encabezado encabezado encabezado"
-    "navegador navegador navegador"
-    "imagenPrincipal imagenPrincipal imagenPrincipal"
-    "contenedor contenedor contenedor"
-    "carusel carusel carusel"
-    "footer footer footer"
+        "encabezado encabezado encabezado"
+        "imagenPrincipal imagenPrincipal imagenPrincipal"
+        "navegador navegador navegador"
+        "contenedor contenedor contenedor"
+        "carusel carusel carusel"
+        "footer footer footer"
     ;
 }
 
 @media screen and (max-width:756px) {
-            .encabezado {
-                flex-direction: column;
-            }
-            .navegador {
-                background-color: coral;
-            }    
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .navegador {
+        background-color: coral;
+    }
 }
 
 
@@ -277,18 +284,3 @@ footer li {
 .ubicanos {
     padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

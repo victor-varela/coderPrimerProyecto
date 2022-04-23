@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+.titulo {
+  font-family: 'Dancing Script', cursive;
+  margin: auto;
+  font-size: large; }
+
+.encabezado {
+  display: flex;
+  grid-area: encabezado;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: left;
+  position: sticky;
+  top: 0px; }
+
+.logo {
+  grid-area: logo; }
+
+.nosotros {
+  background-color: antiquewhite;
+  font-style: normal;
+  text-align: center;
+  font-size: large;
+  width: 100%; }
+
+.descripcion {
+  background-color: azure;
+  font: bold;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+  height: 200px;
+  width: 600px;
+  overflow: scroll;
+  margin: 20px 20px;
+  margin-top: 0px; }
+
+.descripcionQuienesSomos {
+  background-color: azure;
+  font: bold;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+  font-family: 'Dancing Script', cursive;
+  width: 50%;
+  padding: 10px;
+  margin: 10px; }
+
+.navegador {
+  font-size: medium;
+  background-color: antiquewhite;
+  grid-area: navegador;
+  height: 8rem;
+  display: flex;
+  justify-content: center; }
+  .navegador ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100rem; }
+    .navegador ul a {
+      transition: font-size 2s;
+      color: black; }
+      .navegador ul a:hover {
+        font-size: 50px;
+        color: burlywood; }
+
+.imagenPrincipal {
+  margin: auto;
+  grid-area: imagenPrincipal;
+  width: 70%; }
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  margin: 50px 50px;
+  padding: 40px 40px;
+  margin-left: 250px;
+  border-collapse: collapse;
+  font-size: large; }
+
+.tabla {
+  margin-left: 350px; }
+
+form {
+  font-size: large;
+  margin: 50px; }
+
+legend {
+  text-align: center; }
+
+iframe {
+  margin: auto;
+  display: flex;
+  height: 200%;
+  width: 50%;
+  margin-top: 10px; }
+
+textarea {
+  margin: 50px;
+  margin-left: 400px; }
+
+label {
+  padding: 20px; }
+
+th {
+  background-color: #5ff4ab; }
+
+td {
+  align-items: center; }
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  grid-area: contenedor; }
+
+.contenedorQuienesSomos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  margin: auto; }
+
+.promo {
+  display: flex; }
+
+.otono {
+  background-color: burlywood;
+  height: 30rem;
+  width: 35rem;
+  margin: 10px;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: medium;
+  transition: all 2s; }
+
+.otono:hover {
+  transform: rotate(360deg);
+  background-color: aqua; }
+
+.otono h2 {
+  text-align: center; }
+
+.otono p {
+  text-align: center; }
+
+.imagen {
+  display: flex;
+  flex-direction: row; }
+
+.imagen img {
+  height: 30rem;
+  width: 35rem;
+  margin-left: 2rem; }
+
+footer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  grid-area: footer; }
+
+footer img {
+  height: 40px; }
+
+footer li {
+  list-style-type: none; }
+
+.formulario {
+  display: flex;
+  flex-direction: row; }
+
+.body {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.3fr;
+  grid-template-areas: "encabezado encabezado encabezado"
+ "navegador navegador navegador"
+ "imagenPrincipal imagenPrincipal imagenPrincipal"
+ "contenedor contenedor contenedor"
+ "carusel carusel carusel"
+ "footer footer footer"; }
+
+@media screen and (max-width: 756px) {
+  .encabezado {
+    flex-direction: column; }
+  .navegador {
+    background-color: coral; } }
+
+.carusel {
+  grid-area: carusel;
+  width: auto;
+  height: 225px;
+  max-height: 225px; }
+
+.textoTestimonio {
+  font-family: 'Dancing Script', cursive; }
+
+.ubicanos {
+  padding: 10px; }
