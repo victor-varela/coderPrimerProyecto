@@ -11,24 +11,34 @@ html {
     font-family: 'Dancing Script', cursive;
     margin:auto;
     font-size: large;
+    
+
 }
 
 
-.encabezado {
+.header {
     display: flex;
     grid-area: encabezado;
     background-color: antiquewhite; 
-    align-items: center;
-    justify-content:left;
     position: sticky;
     top: 0px;
+    padding: 10px;
+    
 }
+.encabezado {
+    margin: auto;
+    
 
+}
 
 .logo {
-    grid-area: logo;    
+    margin-left: 60px;
 }
 
+h2 {
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+}
 
 .nosotros  {
     background-color:antiquewhite ;
