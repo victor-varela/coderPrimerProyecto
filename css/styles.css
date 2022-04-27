@@ -10,10 +10,12 @@ html {
 .titulo {
     font-family: 'Dancing Script', cursive;
     margin: auto;
-    font-size:xx-large;
+    font-size:x-large;
     font-weight: bolder;
-    width: 700px;
+    width: 600px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -25,21 +27,22 @@ html {
     position: sticky;
     top: 0px;
     padding: 10px;
-
+    min-height: 160px;
 }
 
-.encabezado {
+.nombreSlogan {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: auto;
 }
 
-.logo {
+.logo img {
+    height: 140px;
     margin-left: 60px;
     border-radius: 50%;
-}
 
+}
 h2 {
     font-family: 'Dancing Script', cursive;
     
@@ -61,6 +64,10 @@ h2 {
 
 .navegador ul li {
     padding: 10px;
+}
+
+.navegador ul li a {
+    text-decoration: none;
 }
 
 .nosotros {
@@ -280,14 +287,39 @@ footer li {
 }
 
 @media screen and (max-width:756px) {
-    .header {
-        flex-direction: column;
+    .body {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 30% 20% 20% 10%;
+        grid-template-areas: 
+        "encabezado"
+        "imagenPrincipal"
+        "contenedor"
+        "carusel"
+        "footer"
+        ;
+    
+    }
+    .imagenPrincipal {
+        width: 100%;
+    }
+    .logo img {
+        margin: auto;
     }
 
-    .navegador {
-        background-color: coral;
+    .navegador a:hover {
+        color: gold;
+    
+    }
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
     }
 }
+
+
 
 
 
