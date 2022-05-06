@@ -70,6 +70,21 @@ h2 {
     text-decoration: none;
 }
 
+.imagenPrincipal {
+    margin: auto;
+    grid-area: imagenPrincipal;
+    border-radius: 10%;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    grid-area: contenedor;
+}
+
 .nosotros {
     background-color: antiquewhite;
     font-style: normal;
@@ -95,6 +110,51 @@ h2 {
     margin-top: 0px;
 }
 
+.promo {
+    display: flex;
+}
+
+
+.otono {
+    background-color: burlywood;
+    height: 30rem;
+    width: 35rem;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: medium;
+    transition: all 2s;
+}
+
+.otono:hover {
+    transform: rotate(360deg);
+    background-color: aqua;
+}
+
+.otono h2 {
+    text-align: center;
+}
+
+.otono p {
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imagen img {
+    height: 30rem;
+    width: 35rem;
+    margin-left: 2rem;
+
+
+}
+
 .descripcionQuienesSomos {
     background-color: azure;
     font: bold;
@@ -106,9 +166,6 @@ h2 {
     padding: 10px;
     margin: 10px;
 }
-
-
-
 
 .navegador a {
     transition: font-size 2s;
@@ -122,13 +179,15 @@ h2 {
 
 }
 
-.imagenPrincipal {
-    margin: auto;
-    grid-area: imagenPrincipal;
-    border-radius: 10%;
-
+.carousel-inner img {
+    height: 550px;
 }
 
+
+
+.textoTestimonio {
+    font-family: 'Dancing Script', cursive;
+}
 
 table,
 tr,
@@ -185,65 +244,12 @@ td {
     align-items: center;
 }
 
-.contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    grid-area: contenedor;
-}
-
 .contenedorQuienesSomos {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: auto;
     margin: auto;
-
-}
-
-.promo {
-    display: flex;
-}
-
-
-.otono {
-    background-color: burlywood;
-    height: 30rem;
-    width: 35rem;
-    margin: 10px;
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: medium;
-    transition: all 2s;
-}
-
-.otono:hover {
-    transform: rotate(360deg);
-    background-color: aqua;
-}
-
-.otono h2 {
-    text-align: center;
-}
-
-.otono p {
-    text-align: center;
-}
-
-.imagen {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.imagen img {
-    height: 30rem;
-    width: 35rem;
-    margin-left: 2rem;
-
 
 }
 
@@ -317,21 +323,9 @@ footer li {
         align-items: center;
     
     }
-}
-
-
-
-
-
-.carusel {
-    grid-area: carusel;
-    width: auto;
-    height: 225px;
-    max-height: 225px;
-}
-
-.textoTestimonio {
-    font-family: 'Dancing Script', cursive;
+    .carousel-inner img {
+        height: 250px;
+    }
 }
 
 .ubicanos {
