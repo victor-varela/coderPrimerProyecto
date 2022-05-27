@@ -41,7 +41,6 @@ html {
     height: 140px;
     margin-left: 60px;
     border-radius: 50%;
-
 }
 h2 {
     font-family: 'Dancing Script', cursive;
@@ -179,11 +178,6 @@ h2 {
 
 }
 
-.carousel-inner img {
-    height: 550px;
-}
-
-
 
 .textoTestimonio {
     font-family: 'Dancing Script', cursive;
@@ -273,6 +267,9 @@ footer li {
 .formulario {
     display: flex;
     flex-direction: row;
+}
+.carusel {
+    width: 50%;
 }
 
 
