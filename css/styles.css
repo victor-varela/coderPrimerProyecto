@@ -28,6 +28,7 @@ html {
     top: 0px;
     padding: 10px;
     min-height: 160px;
+    z-index: 4; /* para que el carusel pase por debajo del header*/
 }
 
 .nombreSlogan {
@@ -82,6 +83,7 @@ h2 {
     align-items: center;
     padding: 10px;
     grid-area: contenedor;
+    
 }
 
 .nosotros {
@@ -270,6 +272,8 @@ footer li {
 }
 .carusel {
     width: 50%;
+    grid-area: carusel;
+    
 }
 
 
@@ -305,24 +309,25 @@ footer li {
     }
     .imagenPrincipal {
         width: 100%;
+        margin-top: 0;
     }
     .logo img {
         margin: auto;
     }
 
-    .navegador a:hover {
-        color: gold;
-    
-    }
     .header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     
     }
-    .carousel-inner img {
-        height: 250px;
+    .carusel {
+        width: 100%;
     }
+    .contenedor {
+        margin-top: -100px;
+    }
+
 }
 
 .ubicanos {
