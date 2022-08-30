@@ -88,16 +88,15 @@ h2 {
 
 .nosotros {
     background-color: antiquewhite;
-    font-style: normal;
     text-align: center;
-    font-size: large;
+    font-size:xx-large;
     width: 100%;
 
 }
 
 
 .descripcion {
-    background-color: azure;
+    background-color: rgb(255, 240, 244);
     font: bold;
     font-weight: bold;
     color: black;
@@ -112,7 +111,7 @@ h2 {
 }
 
 .promo {
-    display: flex;
+    display: flex;    
 }
 
 
@@ -127,6 +126,7 @@ h2 {
     justify-content: space-evenly;
     font-size: medium;
     transition: all 2s;
+    
 }
 
 .otono:hover {
@@ -145,6 +145,7 @@ h2 {
 .imagen {
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -271,9 +272,30 @@ footer li {
     flex-direction: row;
 }
 .carusel {
-    width: 50%;
     grid-area: carusel;
-    
+        
+}
+.carousel-content {
+    position: absolute;
+    bottom:50%;
+    left: 50%;
+    color: black;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+  .carousel-content h1 {
+      font-family:'Dancing Script';
+      font-size: 50px;
+      color: aliceblue;
+
+  }
+
+.carousel-item img {
+    height: 75vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -281,16 +303,16 @@ footer li {
     background-image: url("../images/bgimage\ \(2\).jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
-    display: grid;
+   /* display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.3fr;
+    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr;
     grid-template-areas:
         "encabezado encabezado encabezado"
         "imagenPrincipal imagenPrincipal imagenPrincipal"
         "contenedor contenedor contenedor"
         "carusel carusel carusel"
         "footer footer footer"
-    ;
+    ;*/
 }
 
 @media screen and (max-width:756px) {
