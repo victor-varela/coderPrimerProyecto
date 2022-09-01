@@ -278,17 +278,23 @@ footer li {
 .carousel-content {
     position: absolute;
     bottom:50%;
-    left: 50%;
-    color: black;
+    left: 40%;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
-  }
-  .carousel-content h1 {
-      font-family:'Dancing Script';
-      font-size: 50px;
-      color: aliceblue;
+    font-family:'Dancing Script';;
+    color: aliceblue;
+    border-color:lightpink;
+    border-style:groove;
+    padding: 20px 20px;
+    
+}
+.carousel-content h1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    
+}
 
-  }
-
+  
 .carousel-item img {
     height: 75vh;
     background: no-repeat center center scroll;

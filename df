@@ -1,0 +1,90 @@
+[33mcommit 98ed5f5b7a5562ea4fecfdead7e9e781478f22da[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Mon Aug 29 21:32:58 2022 -0300
+
+    se modifico el carrusel
+
+[33mcommit be8a92cf0d1471a4d712c11016dff03c69bcf45b[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Tue Jun 14 20:15:20 2022 -0300
+
+    se arreglo responsive contenedor y visual de carusel debajo del header
+
+[33mcommit bc9c1a6aa106b226839e7a0cfd928a875317edd2[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Thu May 26 21:31:29 2022 -0300
+
+    normalice el carrusel
+
+[33mcommit 450068fc4ad4d1149730841c148747b94f21523d[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Thu May 5 22:04:12 2022 -0300
+
+    modifique carusel
+
+[33mcommit 516c977227a11a759b9511b006cf7515c8996134[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Tue Apr 26 23:15:27 2022 -0300
+
+    modifique header a responsive
+
+[33mcommit edb8ee73fbd738a31488bc8edc5bca3e4732cf31[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Mon Apr 25 22:51:28 2022 -0300
+
+    se modifico header e imagenppal
+
+[33mcommit a263488f1b46de201142a7f1eca1e7079bb1cd61[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Sat Apr 23 15:04:41 2022 -0300
+
+    se modifico header en index
+
+[33mcommit 06f5cad987281780fe14cfc3b5e2bb45b5794360[m
+Merge: c1b4a52 3191b9d
+Author: Victor Varela <victor398@gmail.com>
+Date:   Sat Apr 23 14:25:08 2022 -0300
+
+    se creo gitignore nodemodules
+
+[33mcommit c1b4a527a1a688b3eecde82abf840c588116b7ac[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Sat Apr 23 14:05:03 2022 -0300
+
+    se hizo el gitignore de nodemodules
+
+[33mcommit 3191b9dbf40aed97672232e2518f5c46db4b2613[m
+Author: victor-varela <102999727+victor-varela@users.noreply.github.com>
+Date:   Sat Apr 23 13:39:43 2022 -0300
+
+    se creo carpeta scss y se modifico la pagina quienesSomos
+
+[33mcommit 6a5f66639313ec6d46875c4ca600bf1034fa98ed[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Sun Apr 17 18:02:00 2022 -0300
+
+    se modifico pagina quienes somos y pagina servicio
+
+[33mcommit 133959e761107b6da59d88adac9f7e297e0cca89[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Thu Apr 7 19:58:06 2022 -0300
+
+    modifique pagina quienes somos. modifique tamaños en carusel de index
+
+[33mcommit b901a07faae6ee401fda3269078a90d345b140d7[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Tue Apr 5 19:38:30 2022 -0300
+
+    coloque un carusel con bootstrap en el index
+
+[33mcommit 006a496f766a7823071119ede8ff9f3cbc5a963b[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Mon Apr 4 21:31:07 2022 -0300
+
+    Se creo section promo con image y animacion
+
+[33mcommit e7febb5e5d3c6abc14728d74acc8d2c691f39bfa[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Victor Varela <victor398@gmail.com>
+Date:   Thu Mar 31 18:39:23 2022 -0300
+
+    primer commit
