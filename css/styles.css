@@ -272,20 +272,11 @@ td {
 }
 
 footer {
-    margin-top: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     grid-area: footer;
 
-}
-
-footer img {
-    height: 40px;
-}
-
-footer li {
-    list-style-type: none;
 }
 
 .formulario {
@@ -325,7 +316,34 @@ footer li {
     background-size: cover;
 }
 
+.icon {
+    height:80px;
+    width: 80px;
+    position: relative;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .8s;
+}
 
+.icon:hover:nth-child(1) {
+    background-color: #e75a9e;
+    box-shadow: 0 0 20px #e75a9e;
+}
+.icon:hover:nth-child(2) {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+.icon:hover:nth-child(3) {
+    background-color: #5a8ee7;
+    box-shadow: 0 0 20px #5a8ee7;
+}
+.icon i {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.7rem;
+}
 .body {
     background-color:rgb(237, 213, 215);
     background-size: 100% 100%;
