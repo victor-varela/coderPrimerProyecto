@@ -316,6 +316,12 @@ footer {
     background-size: cover;
 }
 
+.separador {
+    width: 100%;
+    height: 10px;
+    background-color:white;
+}
+
 .icon {
     height:80px;
     width: 80px;
@@ -323,6 +329,10 @@ footer {
     margin: 20px;
     border-radius: 50%;
     transition: all .8s;
+}
+
+a {
+    color: black;
 }
 
 .icon:hover:nth-child(1) {
